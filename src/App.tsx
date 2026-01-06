@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Header } from "./components/NavBar";
+import  HelloCard  from "./components/HelloCard";
 
-function App(){
+function App() {
   return (
     <div>
+      <Header />
       <h1>Welcome to my first React Practical - Week 1</h1>
+      <HelloCard />
     </div>
   );
 }
