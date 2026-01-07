@@ -1,6 +1,7 @@
 import './App.css'
 import { Header } from "./components/NavBar";
 import  HelloCard  from "./components/HelloCard";
+import Button from "./components/Button"
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <Header />
       <h1>Welcome to my first React Practical - Week 1</h1>
       <HelloCard />
+      <button label="Save" variant="primary" />
+      <button label="Cancel" variant="secondary" />
+      <button label="Delete" variant="primary" />
     </div>
   );
 }
