@@ -9,9 +9,9 @@ function App() {
       <Header />
       <h1>Welcome to my first React Practical - Week 1</h1>
       <HelloCard />
-      <button label="Save" variant="primary" />
-      <button label="Cancel" variant="secondary" />
-      <button label="Delete" variant="primary" />
+      <Button label="Save" variant="primary" />
+      <Button label="Cancel" variant="secondary" />
+      <Button label="Delete" variant="primary" />
     </div>
   );
 }
