@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from "./components/NavBar";
 import  HelloCard  from "./components/HelloCard";
 import Button from "./components/Button"
+import Counter from "./components/Counter"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Button label="Save" variant="primary" />
       <Button label="Cancel" variant="secondary" />
       <Button label="Delete" variant="primary" />
+      <Counter />
     </div>
   );
 }
